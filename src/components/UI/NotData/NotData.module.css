@@ -1,0 +1,7 @@
+.notData {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(39, 39, 39, 0.1);
+  color: crimson;
+  text-align: center;
+}

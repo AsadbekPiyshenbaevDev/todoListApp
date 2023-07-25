@@ -1,0 +1,29 @@
+.formBlock {
+  padding: 30px 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form button {
+  align-self: flex-start;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.modalTitleBlock {
+  padding: 5px;
+}
+
+.modalTitle {
+  color: crimson;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+

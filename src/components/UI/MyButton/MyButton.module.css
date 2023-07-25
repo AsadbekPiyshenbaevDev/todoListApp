@@ -1,0 +1,21 @@
+.myBtn {
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: royalblue;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.myBtn:hover {
+  background-color: rgb(26, 64, 176);
+}
+
+.myBtn[data-trash] {
+  background-color: crimson;
+}
+
+.myBtn[data-trash]:hover {
+  background-color: rgb(159, 17, 45);
+}

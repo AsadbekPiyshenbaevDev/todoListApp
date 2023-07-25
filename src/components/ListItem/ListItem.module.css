@@ -1,0 +1,27 @@
+.item {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  font-size: 25px;
+  color: royalblue;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.desc {
+  font-size: 17px;
+  color: rgb(86, 86, 86);
+  line-height: 24px;
+}
+
+.actions {
+  display: flex;
+  gap: 7px;
+}

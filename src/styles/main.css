@@ -1,0 +1,58 @@
+@import "./var.css";
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+button,
+span,
+i,
+input,
+textarea {
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--font-rubik);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-open-sans);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.app {
+  padding: 30px 0px;
+  background-color: #fff;
+}
